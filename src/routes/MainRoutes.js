@@ -3,7 +3,6 @@ import {Route, Switch, useLocation} from 'react-router-dom';
 
 import MainLayout from './../layout/MainLayout';
 
-
 const DashboardDefault = lazy(() => import('../views/dashboard/Default'));
 
 const TableBasic = lazy(() => import('../views/forms/tables/TableBasic'));
@@ -39,19 +38,19 @@ const MainRoutes = () => {
         >
             <MainLayout showBreadcrumb={true}>
                 <Switch location={location} key={location.pathname}>
-                        <Route path="/dashboard/default" component={DashboardDefault} />
+                    <Route path="" component={DashboardDefault} />
+                    <Route path="/dashboard/default" component={DashboardDefault} />
 
-                        <Route path="/tables/tbl-basic" component={TableBasic} />
-                        <Route path="/tables/tbl-dense" component={TableDense} />
+                    <Route path="/tables/tbl-basic" component={TableBasic} />
+                    <Route path="/tables/tbl-dense" component={TableDense} />
 
-                        <Route path="/utils/util-typography" component={UtilsTypography} />
-                        <Route path="/utils/util-color" component={UtilsColor} />
-                        <Route path="/utils/util-shadow" component={UtilsShadow} />
-                        <Route path="/icons/tabler-icons" component={UtilsTablerIcons} />
-                        <Route path="/icons/material-icons" component={UtilsMaterialIcons} />
+                    <Route path="/utils/util-typography" component={UtilsTypography} />
+                    <Route path="/utils/util-color" component={UtilsColor} />
+                    <Route path="/utils/util-shadow" component={UtilsShadow} />
+                    <Route path="/icons/tabler-icons" component={UtilsTablerIcons} />
+                    <Route path="/icons/material-icons" component={UtilsMaterialIcons} />
 
-                        <Route path="/sample-page" component={SamplePage} />
-
+                    <Route path="/sample-page" component={SamplePage} />
                 </Switch>
             </MainLayout>
         </Route>
