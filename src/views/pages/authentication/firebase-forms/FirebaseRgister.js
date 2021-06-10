@@ -118,9 +118,7 @@ const FirebaseRgister = ({className, ...rest}) => {
     const [strength, setStrength] = React.useState(0);
     const [level, setLevel] = React.useState('');
 
-    const googleHandler = async () => {
-
-    };
+    const googleHandler = async () => {};
 
     const handleClickShowPassword = () => {
         setShowPassword(!showPassword);
@@ -181,7 +179,7 @@ const FirebaseRgister = ({className, ...rest}) => {
 
             <Formik
                 initialValues={{
-                    email: 'info@codedthemes.com',
+                    email: 'adrian@mail.com',
                     password: '123456',
                     submit: null
                 }}
@@ -191,7 +189,6 @@ const FirebaseRgister = ({className, ...rest}) => {
                 })}
                 onSubmit={async (values, {setErrors, setStatus, setSubmitting}) => {
                     try {
-
                         if (scriptedRef.current) {
                             setStatus({success: true});
                             setSubmitting(false);
@@ -216,7 +213,7 @@ const FirebaseRgister = ({className, ...rest}) => {
                                     margin="normal"
                                     name="fname"
                                     type="text"
-                                    defaultValue="Joseph"
+                                    defaultValue="Adrian"
                                     variant="outlined"
                                     className={classes.loginput}
                                 />
@@ -228,7 +225,7 @@ const FirebaseRgister = ({className, ...rest}) => {
                                     margin="normal"
                                     name="lname"
                                     type="text"
-                                    defaultValue="Doe"
+                                    defaultValue="Sudbury"
                                     variant="outlined"
                                     className={classes.loginput}
                                 />

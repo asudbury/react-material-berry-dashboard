@@ -69,7 +69,7 @@ const TotalIncomePatternCard = () => {
                             className={classes.padding}
                             primary={
                                 <Typography variant="h4" className={classes.primary}>
-                                    $203k
+                                    £203k
                                 </Typography>
                             }
                             secondary={

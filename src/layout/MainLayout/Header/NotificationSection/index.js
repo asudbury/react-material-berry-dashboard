@@ -314,7 +314,7 @@ const NotificationSection = () => {
                                                                         </ListItemAvatar>
                                                                         <ListItemText
                                                                             primary={
-                                                                                <Typography variant="subtitle1">Kishan Pandav</Typography>
+                                                                                <Typography variant="subtitle1">Adrian</Typography>
                                                                             }
                                                                         />
                                                                         <ListItemSecondaryAction className={classes.listAction}>

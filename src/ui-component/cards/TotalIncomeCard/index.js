@@ -38,7 +38,7 @@ const TotalIncomeCard = () => {
                         </ListItemAvatar>
                         <ListItemText
                             className={classes.padding}
-                            primary={<Typography variant="h4">$203k</Typography>}
+                            primary={<Typography variant="h4">£203k</Typography>}
                             secondary={
                                 <Typography variant="subtitle2" className={classes.secondary}>
                                     Total Income

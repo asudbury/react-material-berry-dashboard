@@ -158,7 +158,7 @@ const EarningCard = () => {
                     <Grid item>
                         <Grid container alignItems="center">
                             <Grid item>
-                                <Typography className={classes.cardHeading}>$500.00</Typography>
+                                <Typography className={classes.cardHeading}>£500.00</Typography>
                             </Grid>
                             <Grid item>
                                 <Avatar className={classes.avatarCricle}>

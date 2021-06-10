@@ -39,7 +39,7 @@ const BajajCard = () => {
                             </Grid>
                             <Grid item>
                                 <Typography variant="subtitle1" color="inherit">
-                                    $1839.00
+                                    £1839.00
                                 </Typography>
                             </Grid>
                         </Grid>

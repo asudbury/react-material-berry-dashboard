@@ -26,8 +26,6 @@ import {
 
 import {IconLogout, IconSearch, IconSettings} from '@tabler/icons';
 
-import UpgradePlanCard from '../../../../ui-component/cards/UpgradePlanCard';
-
 import User1 from './../../../../assets/images/users/user-round.svg';
 
 const useStyles = makeStyles((theme) => ({
@@ -192,9 +190,9 @@ const ProfileSection = () => {
                                     <CardContent className={classes.cardContent}>
                                         <Grid container direction="column" spacing={0}>
                                             <Grid item className={classes.flex}>
-                                                <Typography variant="h4">Good Morning,</Typography>
+                                                <Typography variant="h4">Good Morning, </Typography>
                                                 <Typography component="span" variant="h4" className={classes.name}>
-                                                    Kishan
+                                                    Adrian
                                                 </Typography>
                                             </Grid>
                                             <Grid item>
@@ -220,7 +218,6 @@ const ProfileSection = () => {
                                         />
                                         <Divider />
                                         <PerfectScrollbar className={classes.ScrollHeight}>
-                                            <UpgradePlanCard />
                                             <Divider />
                                             <Card className={classes.card}>
                                                 <CardContent>
