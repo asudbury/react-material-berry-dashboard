@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link as RouterLink} from 'react-router-dom';
-import {Card, CardContent, Divider, Grid, Link, makeStyles, Typography, useMediaQuery, useTheme} from '@material-ui/core';
+import {Card, CardContent, Divider, Grid, makeStyles, Typography, useMediaQuery, useTheme} from '@material-ui/core';
 
 import FirebaseRgister from './../firebase-forms/FirebaseRgister';
 

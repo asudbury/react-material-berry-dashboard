@@ -19,7 +19,6 @@ import {
     OutlinedInput,
     Typography
 } from '@material-ui/core';
-import {Link} from 'react-router-dom';
 
 import useScriptRef from '../../../../hooks/useScriptRef';
 import Visibility from '@material-ui/icons/Visibility';
@@ -113,9 +112,7 @@ const FirebaseLogin = (props, {className, ...rest}) => {
     const [showPassword, setShowPassword] = React.useState(false);
     const [checked, setChecked] = React.useState(true);
 
-    const googleHandler = async () => {
-
-    };
+    const googleHandler = async () => {};
 
     const handleClickShowPassword = () => {
         setShowPassword(!showPassword);
@@ -176,7 +173,6 @@ const FirebaseLogin = (props, {className, ...rest}) => {
                 })}
                 onSubmit={async (values, {setErrors, setStatus, setSubmitting}) => {
                     try {
-
                         if (scriptedRef.current) {
                             setStatus({success: true});
                             setSubmitting(false);
@@ -207,7 +203,7 @@ const FirebaseLogin = (props, {className, ...rest}) => {
                                 name="email"
                                 onBlur={handleBlur}
                                 onChange={handleChange}
-                                label='Email Address / Username'
+                                label="Email Address / Username"
                                 inputProps={{
                                     classes: {
                                         notchedOutline: classes.notchedOutline
@@ -248,7 +244,7 @@ const FirebaseLogin = (props, {className, ...rest}) => {
                                         </IconButton>
                                     </InputAdornment>
                                 }
-                                label='Password'
+                                label="Password"
                                 inputProps={{
                                     classes: {
                                         notchedOutline: classes.notchedOutline
@@ -277,10 +273,7 @@ const FirebaseLogin = (props, {className, ...rest}) => {
                                 />
                             </Grid>
                             <Grid item>
-                                <Typography
-                                    variant="subtitle1">
-                                    Forgot Password?
-                                </Typography>
+                                <Typography variant="subtitle1">Forgot Password?</Typography>
                             </Grid>
                         </Grid>
                         {errors.submit && (
