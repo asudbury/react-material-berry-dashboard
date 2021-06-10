@@ -39,6 +39,7 @@ const MainRoutes = () => {
             <MainLayout showBreadcrumb={true}>
                 <Switch location={location} key={location.pathname}>
                     <Route path="" component={DashboardDefault} />
+                    <Route path="/" component={DashboardDefault} />
                     <Route path="/dashboard/default" component={DashboardDefault} />
 
                     <Route path="/tables/tbl-basic" component={TableBasic} />
