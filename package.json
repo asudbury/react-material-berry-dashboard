@@ -1,7 +1,7 @@
 {
-    "name": "berry-material-react-free",
+    "name": "react-material-berry-dashboard",
     "version": "1.0.0",
-    "private": true,
+    "private": false,
     "homepage": "http://asudbury.github.io/react-material-berry-dashboard",
     "dependencies": {
         "@emotion/react": "^11.1.5",
