@@ -37,7 +37,7 @@ const MainRoutes = () => {
             ]}
         >
             <MainLayout showBreadcrumb={true}>
-                <Switch location={location} key={location.pathname}>
+                <Switch location={location} key={location.pathname} basename={process.env.PUBLIC_URL}>
                     <Route path="" component={DashboardDefault} />
                     <Route path="/" component={DashboardDefault} />
                     <Route path="/dashboard/default" component={DashboardDefault} />
