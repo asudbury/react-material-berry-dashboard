@@ -8,8 +8,10 @@ import TotalIncomePatternCard from '../../ui-component/cards/TotalIncomePatternC
 import TotalIncomeCard from '../../ui-component/cards/TotalIncomeCard';
 import ChartCard from '../../ui-component/cards/ChartCard';
 import PopularCard from '../../ui-component/cards/PopularCard';
+import {logDebug} from '../../utils/Logger';
 
 const Dashboard = () => {
+    logDebug('Dashboard', 'Start');
     return (
         <Grid container spacing={gridSpacing}>
             <Grid item xs={12}>

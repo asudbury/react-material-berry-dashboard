@@ -2,6 +2,7 @@ import React, {lazy} from 'react';
 import {Route, Switch, useLocation} from 'react-router-dom';
 
 import MainLayout from './../layout/MainLayout';
+import {logDebug} from '../utils/Logger';
 
 const DashboardDefault = lazy(() => import('../views/dashboard/Default'));
 
@@ -17,7 +18,11 @@ const UtilsTablerIcons = lazy(() => import('../views/utilities/icons/TablerIcons
 const SamplePage = lazy(() => import('../views/sample-page'));
 
 const MainRoutes = () => {
+    logDebug('MainRoutes', 'Start');
+
     const location = useLocation();
+
+    logDebug('MainRoutes', location.pathname);
 
     return (
         <Route
@@ -37,7 +42,7 @@ const MainRoutes = () => {
             ]}
         >
             <MainLayout showBreadcrumb={true}>
-                <Switch location={location} key={location.pathname} basename={process.env.PUBLIC_URL}>
+                <Switch key={location.pathname}>
                     <Route path="" component={DashboardDefault} />
                     <Route path="/" component={DashboardDefault} />
                     <Route path="/dashboard/default" component={DashboardDefault} />

@@ -10,7 +10,11 @@ import Loader from '../ui-component/extended/Loader/Loader';
 
 import AuthenticationRoutes from './AuthenticationRoutes';
 
+import {logDebug} from '../utils/Logger';
+
 const Routes = () => {
+    logDebug('Routes', 'Start');
+    logDebug('Routes', config.defaultPath);
     return (
         <AnimatePresence>
             <Suspense fallback={<Loader />}>

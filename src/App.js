@@ -5,7 +5,6 @@ import {jssPreset, StylesProvider, ThemeProvider} from '@material-ui/core/styles
 import CssBaseline from '@material-ui/core/CssBaseline';
 import StyledEngineProvider from '@material-ui/core/StyledEngineProvider';
 
-
 import theme from './themes';
 import Routes from './routes';
 import Snackbar from './ui-component/extended/Snackbar';
@@ -17,6 +16,8 @@ import createCache from '@emotion/cache';
 
 import {create} from 'jss';
 import rtl from 'jss-rtl';
+
+import {logDebug} from '../src/utils/Logger';
 
 const jss = create({
     plugins: [...jssPreset().plugins, rtl()]
@@ -35,6 +36,8 @@ const loadLocaleData = (locale) => {
 };
 
 const App = () => {
+    logDebug('App', 'Start');
+
     const customization = useSelector((state) => state.customization);
     const [messages, setMessages] = useState();
 
@@ -58,8 +61,8 @@ const App = () => {
                                 <NavigationScroll>
                                     <ThemeProvider theme={theme(customization)}>
                                         <CssBaseline />
-                                            <Routes />
-                                            <Snackbar />
+                                        <Routes />
+                                        <Snackbar />
                                     </ThemeProvider>
                                 </NavigationScroll>
                             </StyledEngineProvider>

@@ -7,14 +7,13 @@ import {Provider} from 'react-redux';
 
 import App from './App';
 import reducer from './store/reducer';
-import config from './config';
 import './assets/scss/style.scss';
 
 const store = createStore(reducer);
 
 ReactDOM.render(
     <Provider store={store}>
-        <BrowserRouter basename={config.basename}>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <App />
         </BrowserRouter>
     </Provider>,

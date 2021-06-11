@@ -9,8 +9,6 @@ import HomeIcon from '@material-ui/icons/Home';
 
 import {gridSpacing} from '../../../store/constant';
 
-import config from '../../../config';
-
 const useStyles = makeStyles((theme) => ({
     link: {
         display: 'flex',
@@ -82,7 +80,7 @@ const Breadcrumbs = (props) => {
                 if (collapse.type && collapse.type === 'collapse') {
                     getCollapse(collapse);
                 } else if (collapse.type && collapse.type === 'item') {
-                    if (document.location.pathname === config.basename + collapse.url) {
+                    if (document.location.pathname === process.env.PUBLIC_URL + collapse.url) {
                         setMain(item);
                         setItem(collapse);
                     }
@@ -170,8 +168,6 @@ const Breadcrumbs = (props) => {
                 </Card>
             );
         }
-
-        // document.title = itemTitle + config.title;
     }
 
     return breadcrumbContent;
