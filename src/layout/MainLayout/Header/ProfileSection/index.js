@@ -148,7 +148,7 @@ const ProfileSection = () => {
                 className={classes.profileChip}
                 icon={
                     <Avatar
-                        src={User1}
+                        src="https://avatars.githubusercontent.com/u/3384470?v=4"
                         className={classes.headerAvtar}
                         ref={anchorRef}
                         aria-controls={open ? 'menu-list-grow' : undefined}

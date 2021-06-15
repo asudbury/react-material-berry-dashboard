@@ -219,6 +219,9 @@ const NotificationSection = () => {
     return (
         <React.Fragment>
             <Box component="span" className={classes.box}>
+                <Typography>Adrian Sudbury</Typography>
+            </Box>
+            <Box component="span" className={classes.box}>
                 <ButtonBase sx={{borderRadius: '12px'}}>
                     <Avatar
                         variant="rounded"
@@ -310,12 +313,10 @@ const NotificationSection = () => {
                                                                 <div className={classes.itemaction}>
                                                                     <ListItem alignItems="center" className={classes.listItem}>
                                                                         <ListItemAvatar>
-                                                                            <Avatar alt="John Doe" src={User1} />
+                                                                            <Avatar alt="Adrian Sudbury" src={User1} />
                                                                         </ListItemAvatar>
                                                                         <ListItemText
-                                                                            primary={
-                                                                                <Typography variant="subtitle1">Adrian</Typography>
-                                                                            }
+                                                                            primary={<Typography variant="subtitle1">Adrian</Typography>}
                                                                         />
                                                                         <ListItemSecondaryAction className={classes.listAction}>
                                                                             <Grid container justifyContent="flex-end">
@@ -365,7 +366,7 @@ const NotificationSection = () => {
                                                                         <ListItemText
                                                                             primary={
                                                                                 <Typography variant="subtitle1">
-                                                                                    Store Verification Done
+                                                                                    Verification Done
                                                                                 </Typography>
                                                                             }
                                                                         />
@@ -463,10 +464,10 @@ const NotificationSection = () => {
                                                                 <div className={classes.itemaction}>
                                                                     <ListItem alignItems="center" className={classes.listItem}>
                                                                         <ListItemAvatar>
-                                                                            <Avatar alt="Jone Doe" src={User1} />
+                                                                            <Avatar alt="Adrian Sudbury" src={User1} />
                                                                         </ListItemAvatar>
                                                                         <ListItemText
-                                                                            primary={<Typography variant="subtitle1">Jone Doe</Typography>}
+                                                                            primary={<Typography variant="subtitle1">Adrian Sudbury</Typography>}
                                                                         />
                                                                         <ListItemSecondaryAction className={classes.listAction}>
                                                                             <Grid container justifyContent="flex-end">
@@ -521,10 +522,10 @@ const NotificationSection = () => {
                                                                 <div className={classes.itemaction}>
                                                                     <ListItem alignItems="center" className={classes.listItem}>
                                                                         <ListItemAvatar>
-                                                                            <Avatar alt="Jone Doe" src={User1} />
+                                                                            <Avatar alt="Adrian Sudbury" src={User1} />
                                                                         </ListItemAvatar>
                                                                         <ListItemText
-                                                                            primary={<Typography variant="subtitle1">Jone Doe</Typography>}
+                                                                            primary={<Typography variant="subtitle1">Adrian Sudbury</Typography>}
                                                                         />
                                                                         <ListItemSecondaryAction className={classes.listAction}>
                                                                             <Grid container justifyContent="flex-end">
