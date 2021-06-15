@@ -26,8 +26,6 @@ import {
 
 import {IconLogout, IconSearch, IconSettings} from '@tabler/icons';
 
-import User1 from './../../../../assets/images/users/user-round.svg';
-
 const useStyles = makeStyles((theme) => ({
     navContainer: {
         width: '100%',
