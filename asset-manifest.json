@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-material-berry-dashboard/static/css/main.7312c64d.css",
-    "main.js": "/react-material-berry-dashboard/static/js/main.7676b65c.js",
+    "main.js": "/react-material-berry-dashboard/static/js/main.bb95fd44.js",
     "static/js/875.9e6e0660.chunk.js": "/react-material-berry-dashboard/static/js/875.9e6e0660.chunk.js",
     "static/js/387.87c30455.chunk.js": "/react-material-berry-dashboard/static/js/387.87c30455.chunk.js",
     "static/js/390.60d37147.chunk.js": "/react-material-berry-dashboard/static/js/390.60d37147.chunk.js",
@@ -30,7 +30,7 @@
     "static/media/auth-blue.svg": "/react-material-berry-dashboard/static/media/auth-blue.de8060502f65533269778f7da199c328.svg",
     "static/media/auth-purple.svg": "/react-material-berry-dashboard/static/media/auth-purple.15fc76c7bf75bebf07b5d23b5fff8c22.svg",
     "main.7312c64d.css.map": "/react-material-berry-dashboard/static/css/main.7312c64d.css.map",
-    "main.7676b65c.js.map": "/react-material-berry-dashboard/static/js/main.7676b65c.js.map",
+    "main.bb95fd44.js.map": "/react-material-berry-dashboard/static/js/main.bb95fd44.js.map",
     "387.87c30455.chunk.js.map": "/react-material-berry-dashboard/static/js/387.87c30455.chunk.js.map",
     "390.60d37147.chunk.js.map": "/react-material-berry-dashboard/static/js/390.60d37147.chunk.js.map",
     "731.8f829dfd.chunk.js.map": "/react-material-berry-dashboard/static/js/731.8f829dfd.chunk.js.map",
@@ -50,6 +50,6 @@
   },
   "entrypoints": [
     "static/css/main.7312c64d.css",
-    "static/js/main.7676b65c.js"
+    "static/js/main.bb95fd44.js"
   ]
 }
