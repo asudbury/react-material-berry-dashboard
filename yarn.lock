@@ -3451,19 +3451,11 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*":
-  version "19.0.1"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-19.0.1.tgz#a000d5b78f473732a08cecbead0f3751e550b3df"
-  integrity sha512-YW6614BDhqbpR5KtUYzTA+zlA7nayzJRA9ljz9CQoxthR0sDisYZLuvSMsil36t4EH/uAt8T52Xb4sVw17G+SQ==
+"@types/react@*", "@types/react@16 || 17 || 18 || 19":
+  version "19.0.8"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-19.0.8.tgz#7098e6159f2a61e4f4cef2c1223c044a9bec590e"
+  integrity sha512-9P/o1IGdfmQxrujGbIMDyYaaCykhLKc0NGCtYcECNUr9UAaDe4gwvV9bR6tvd5Br1SG0j+PBpbKr2UYY8CwqSw==
   dependencies:
-    csstype "^3.0.2"
-
-"@types/react@16 || 17 || 18":
-  version "18.3.18"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.3.18.tgz#9b382c4cd32e13e463f97df07c2ee3bbcd26904b"
-  integrity sha512-t4yC+vtgnkYjNSKlFx1jkAhH8LgTo2N/7Qvi83kdEaUtMDiwpbLAktKDaAMlRcJ5eSxZkH74eEGt1ky31d7kfQ==
-  dependencies:
-    "@types/prop-types" "*"
     csstype "^3.0.2"
 
 "@types/react@^16.8.12":
@@ -9532,16 +9524,16 @@ react-fast-compare@^2.0.1:
   resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-2.0.4.tgz#e84b4d455b0fec113e0402c329352715196f81f9"
   integrity sha512-suNP+J1VU1MWFKcyt7RtjiSWUjvidmQSlqu+eHslq+342xCbGTYmC0mEhPCOHxlW0CywylOC1u2DFAT+bv4dBw==
 
-react-intl@^7.1.3:
-  version "7.1.3"
-  resolved "https://registry.yarnpkg.com/react-intl/-/react-intl-7.1.3.tgz#0211c1f86617ee84a4afff3a5190314ca9b8d595"
-  integrity sha512-CrlVW+espQXVTgydgeZkPztWAtST2SvCWKr7FxZytGdQgx7YUemqNrHIUa/YxUbpcRMHnjPI4RHsQf/tEoRMhA==
+react-intl@^7.1.5:
+  version "7.1.5"
+  resolved "https://registry.yarnpkg.com/react-intl/-/react-intl-7.1.5.tgz#086c1b7cfb00ab7c9f62241162aca86520a5dc4c"
+  integrity sha512-cVvsVdaOnZ85XBXU0Lc2PVGNhGlzl4UBV+aWAGe/zrV5Xr+CEW7izUsAp/fIuwvCsJl9R+aokppm+P7cdhnpUA==
   dependencies:
     "@formatjs/ecma402-abstract" "2.3.2"
     "@formatjs/icu-messageformat-parser" "2.11.0"
     "@formatjs/intl" "3.1.3"
     "@types/hoist-non-react-statics" "3"
-    "@types/react" "16 || 17 || 18"
+    "@types/react" "16 || 17 || 18 || 19"
     hoist-non-react-statics "3"
     intl-messageformat "10.7.14"
     tslib "2"
