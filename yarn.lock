@@ -6221,12 +6221,12 @@ fraction.js@^4.2.0:
   resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-4.2.0.tgz#448e5109a313a3527f5a3ab2119ec4cf0e0e2950"
   integrity sha512-MhLuK+2gUcnZe8ZHlaaINnQLl0xRIGRfcGk2yl8xoQAfHrSsL3rYu6FCmBdkdbhc9EPlwyGHewaRsvwRMJtAlA==
 
-framer-motion@^12.9.5:
-  version "12.9.5"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-12.9.5.tgz#449629d42ac4a2dc0c1dfb6eb8bfdf57643bc4d5"
-  integrity sha512-GeRN4aX3g+pdGVTLRU0yC5SYeKY1DigyrnJjcyST2dKp/OA9sNusW5DUImZF96S/eBnGW3mNGRt7PteDJuT4Bg==
+framer-motion@^12.10.0:
+  version "12.10.0"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-12.10.0.tgz#1b49984ba1a687978ea0671cc6ce907da11515d8"
+  integrity sha512-fce/SPS/lrIHYLGfRNytdvzwotc43hBGnEGjXAS304xB+uX9iAm0BpPDx9SuO3TatJkQMm9mglVu94wIPdOTjw==
   dependencies:
-    motion-dom "^12.9.4"
+    motion-dom "^12.10.0"
     motion-utils "^12.9.4"
     tslib "^2.4.0"
 
@@ -8248,10 +8248,10 @@ mkdirp@~0.5.1:
   dependencies:
     minimist "^1.2.5"
 
-motion-dom@^12.9.4:
-  version "12.9.4"
-  resolved "https://registry.yarnpkg.com/motion-dom/-/motion-dom-12.9.4.tgz#9de06ab408effc73877309cf27813442501ec0ef"
-  integrity sha512-25TWkQPj5I18m+qVjXGtCsxboY11DaRC5HMjd29tHKExazW4Zf4XtAagBdLpyKsVuAxEQ6cx5/E4AB21PFpLnQ==
+motion-dom@^12.10.0:
+  version "12.10.0"
+  resolved "https://registry.yarnpkg.com/motion-dom/-/motion-dom-12.10.0.tgz#9e71317c1e64d01cc702083ccd7263cb1fda2f74"
+  integrity sha512-TbRFEjQmRIDEFXJFIHfvM3VW8PuQ8bSWwwYxWA5Elq+GCghzqYUQ1FDQK/K6PmtmOoLiQY3ttJE6CrOedRrGgw==
   dependencies:
     motion-utils "^12.9.4"
 
